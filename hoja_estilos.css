@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #0f2027;
+    background-image: linear-gradient(315deg, #0f2027 0%, #203a43 74%, #2c5364 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #d1e8e2; 
+}
+
+header {
+    background: linear-gradient(90deg, #11998e, #38ef7d);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.contenedor {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #1e3c72; 
+    background-image: linear-gradient(315deg, #1e3c72 0%, #2a5298 74%);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.contenedor:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.contenedor h2 {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contenedor p {
+    color: #d1e8e2;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: linear-gradient(90deg, #11998e, #38ef7d);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+.boton {
+    display: inline-flex;
+    align-items: center; 
+    margin: 10px;
+    padding: 15px 30px; 
+    background-color: #38ef7d; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    font-size: 1.2em; 
+}
+.boton img {
+    width: 300; 
+    height: 300; 
+    margin-right: 50px; 
+}
